@@ -13,7 +13,7 @@ myntra_homePage <hr>
 
 # Installation
 To use these projects, simply clone or download the repository to your local machine:
-<p>git clone https://github.com/skyy4/Class</p>
+<p>git clone https://github.com/skyy4/IntegraMinds-F.Stack-Bootcamp</p>
   
 # Usage
 Each project is contained within its own folder. To view the project, simply open the index.html file in your web browser.
