@@ -1,0 +1,153 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Fira Sans', sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: linear-gradient(360deg, rgb(11, 128, 236), rgb(40, 245, 235), rgb(0, 238, 255));
+    color: #fff;
+  }
+  
+  /* Header styles */
+  header {
+    padding: 1rem;
+    max-height: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(199, 146, 249);
+    margin-bottom: 1rem;
+  }
+  
+  /* Form styles */
+  #new-task-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  input, button {
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 1rem;
+  }
+  
+  #new-task-input {
+    flex: 1 1 0%;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-right: 0;
+    color: #000;
+    font-size: 1.5rem;
+  }
+  
+  #new-task-input::placeholder {
+    color: #ccc;
+  }
+  
+  #new-task-submit {
+    color: pink;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background: linear-gradient(to right, red, purple);
+    background-clip: text; /* Improved version of -webkit-background-clip:text */
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #new-task-submit:hover {
+    opacity: 1.2;
+  }
+  
+  #new-task-submit:active {
+    opacity: 0.7;
+  }
+  
+  /* Main styles */
+  main {
+    flex: 1 1 0%;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .task-list {
+    padding: 1rem;
+  }
+  
+  .task-list h2 {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #ccc;
+    margin-bottom: 1rem;
+  }
+  
+  /* Task styles */
+  #tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  #tasks .task .content .text {
+    color: #000;
+    font-size: 1.25rem;
+    width: 100%;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  #tasks .task .content .text:not(:read-only) {
+    color: pink;
+  }
+  
+  #tasks .task .action {
+    display: flex;
+    margin: 0 -0.5rem;
+  }
+  
+  .task .actions button {
+    cursor: pointer;
+    margin: 0 0.5rem;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  
+  .task .actions button:hover {
+    opacity: 1.2;
+  }
+  
+  .task .actions button:active {
+    opacity: 0.7;
+  }
+  
+  .task .actions .edit {
+    background: linear-gradient(to right, red, purple);
+    background-clip: text; /* Improved version of -webkit-background-clip:text */
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .task .actions .delete {
+    color: crimson;
+  }
+  
+  .task .content .text {
+    font-size: 1rem;
+  }
