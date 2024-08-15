@@ -6,12 +6,12 @@ let priceGap = 1000;
 
 priceInput.forEach(input =>{
     input.addEventListener("input",e =>{
-        // getting two range value and parsing them to number
+
         let minVal = parseInt(priceInput[0].value),
         maxVal = parseInt(priceInput[1].value);
 
         if((maxVal - minVal >= priceGap) && maxVal <= 10000){
-            if(e.target.className === "input-min"){ // if active input is min input
+            if(e.target.className === "input-min"){ 
                 rangeInput[0].value = minVal;
                 progress.style.left = (minVal / rangeInput[0].max) * 100 + "%";
             }else{
@@ -28,7 +28,7 @@ priceInput.forEach(input =>{
 
 rangeInput.forEach(input =>{
     input.addEventListener("input",e =>{
-        // getting two range value and parsing them to number
+    
         let minVal = parseInt(rangeInput[0].value),
         maxVal = parseInt(rangeInput[1].value);
 
