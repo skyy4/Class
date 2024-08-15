@@ -4,12 +4,14 @@ This repository contains all the assignments and projects that were developed by
 
 
 # Projects -
-homepage <hr>
-timeTable <hr>
-linkedin_loginPage <hr>
-myntra_homePage <hr>
-bmiCalculator <hr>
-ToDo-list <hr>
+
+<a href="https://skyy4-p1-integraminds.netlify.app">timeTable</a> <hr>
+<a href="https://skyy4-p2-integraminds.netlify.app">linkedin_loginPage</a> <hr>
+<a href="https://skyy4-p3-integraminds.netlify.app">myntra_homePage</a> <hr>
+<a href="https://skyy4-p4-integraminds.netlify.app">bmiCalculator</a> <hr>
+<a href="https://skyy4-p5-integraminds.netlify.app">ToDo-list</a> <hr>
+<a href="https://skyy4-p6-integraminds.netlify.app">priceSlider</a> <hr>
+
 
 
 
