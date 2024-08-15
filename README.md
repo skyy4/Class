@@ -8,6 +8,8 @@ homepage <hr>
 timeTable <hr>
 linkedin_loginPage <hr>
 myntra_homePage <hr>
+bmiCalculator <hr>
+ToDo-list <hr>
 
 
 
