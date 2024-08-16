@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<h2>Registration Form</h2>
+		<form id="registration-form">
+			<div class="form-group">
+				<label for="name">Name:</label>
+				<input type="text" id="name" name="name" class="form-control">
+			</div>
+			<button id="switch-to-login" type="button">Register with Photo</button>
+			<div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="password">Password:</label>
+				<input type="password" id="password" name="password" class="form-control">
+			</div>
+			<button id="register-btn" type="submit">Register</button>
+		</form>
+		
+		<div id="login-form-container" style="display: none;">
+			<h2>Login Form</h2>
+			<form id="login-form">
+				<div class="form-group">
+					<label for="email-login">Email:</label>
+					<input type="email" id="email-login" name="email-login" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="password-login">Password:</label>
+					<input type="password" id="password-login" name="password-login" class="form-control">
+				</div>
+				<div class="form-group">
+					<label for="photo">Upload Photo:</label>
+					<input type="file" id="photo" name="photo" class="form-control">
+				</div>
+				<button id="login-btn" type="submit">Login</button>
+			</form>
+		</div>
+	</div>
+
+	<script src="script.js"></script>
+</body>
+</html>
