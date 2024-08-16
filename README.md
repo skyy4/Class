@@ -11,6 +11,7 @@ This repository contains all the assignments and projects that were developed by
 <a href="https://skyy4-p4-integraminds.netlify.app">bmiCalculator</a> <hr>
 <a href="https://skyy4-p5-integraminds.netlify.app">ToDo-list</a> <hr>
 <a href="https://skyy4-p6-integraminds.netlify.app">priceSlider</a> <hr>
+<a href="https://skyy4-p7-integraminds.netlify.app">switchLogin_forms</a> <hr>
 
 
 
